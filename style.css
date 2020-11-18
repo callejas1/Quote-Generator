@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 15px sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 25vh;
+  background-image: linear-gradient(90deg, #72bcd4, #e6add8);
+}
+
+.container {
+  background: white;
+  padding: 2em;
+}
+
+blockquote {
+  font: 1.75em 'Charm', cursive;
+  margin: 0.5em;
+  padding: 1.5em;
+  line-height: 1.5;
+  position: relative;
+  color: #72bcd4;
+  text-align: center;
+}
+
+#cite {
+  color: #72bcd4;
+  font: 1.25em 'lato', sans-serif;
+  margin-right: 0.5em;
+  text-align: right;
+}
+
+/* added unicode before quotes and author name */
+
+blockquote::before {
+  content: '\275D';
+  font-size: 2em;
+  position: absolute;
+  left: -0.5em;
+  top: 0.25em;
+}
+
+#cite::before {
+  content: '\2014 \2009';
+}
+
+/* Flex space between will send button and icon to opposite ends */
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  margin-top: 2em;
+  padding: 0.75em;
+  color: white;
+  border: none;
+  background-color: #e6add8;
+}
+.fa-twitter {
+  margin-top: 2em;
+  padding: 0.5em;
+  color: white;
+  background-color: #99cfe0;
+}
+
+/* Changing style on hover and active */
+
+.fa-twitter:hover,
+button:hover {
+  background-image: linear-gradient(90deg, #99cfe0, #e6add8);
+}
+.fa-twitter:active,
+button:active {
+  opacity: 0.5;
+}
