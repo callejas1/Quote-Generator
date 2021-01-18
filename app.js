@@ -7,7 +7,7 @@ let quoteGen = [
   },
   {
     quote: 'Quiet people have the loudest minds.',
-    author: 'Stephen King',
+    author: 'Stephen Hawking',
   },
   {
     quote:
