@@ -4,15 +4,12 @@ This random quote generator was built using pure Javascript.
 
 ## Screenshots
 
-<img src="https://i.pinimg.com/originals/b0/fb/97/b0fb972a4103eecad706238b1d214674.png">
+<img src="https://i.pinimg.com/originals/96/01/0a/96010a17c83aa9ec6af979129587a239.png">
 
-<img src="https://i.pinimg.com/originals/41/5d/d7/415dd739a72842a5156ff13f55be8d96.png">
+<img src="https://i.pinimg.com/originals/87/e0/a0/87e0a052b690b331f2aae0ab776c1a3f.png">
 
-<img src="https://i.pinimg.com/originals/21/e2/cf/21e2cf12551ab687781f8996dc14299f.png">
+<img src="https://i.pinimg.com/originals/4a/11/79/4a1179f61d6518f821bd15d1eeb6807a.png">
 
-<img src="https://i.pinimg.com/originals/cb/81/b9/cb81b9c8e31ff5fc6a10eb1ecf463f63.png">
-<img src="https://i.pinimg.com/originals/d0/3a/39/d03a39db6aed230cf6579f4c86f329d3.png">
-
-## Technologies 
+## Technologies
 
 HTML, CSS & JS.
